@@ -7,6 +7,9 @@ import time
 PATH = "C:/Users/Apy/Desktop/Internship/chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 
+# I only added a comment here
+
+
 driver.get("https://techwithtim.net")
 #driver.close()
 print(driver.title)
@@ -25,3 +28,4 @@ except:
 
 
 driver.quit()
+
